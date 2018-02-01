@@ -16,9 +16,9 @@ O(1) - space complexity
 // indices ->           0   1   2   3   4   5    6   7    8   9  10
 // SampleStockPrice = [23, 34, 12, 55, 45, 66, 233, 23, 666, 87, 11]
 
-// So, from this array, if we choose to buy that price 12 USD (index 2), valid
-// indices are only 3 and so forth. 2 and below isn't applicable/valid, as the
-// index denotes time (we cannot go time, w.r.t. this question).
+// So, from this array, if we choose to buy that at 12 USD (index 2), valid
+// indices are only 3 and so forth. Indices 2 and below isn't applicable/valid, as the
+// index denotes time (we cannot go backward in time, w.r.t. this question).
 
 // A valid choice may not be the correct choice. It has to be so that maximum
 // return can be gained.
